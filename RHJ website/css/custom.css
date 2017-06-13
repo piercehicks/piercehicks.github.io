@@ -1,0 +1,116 @@
+/**** Genereal Format
+
+****/
+
+.footerIcons {
+    width: 50%;
+}
+
+.footer {
+display: flex;
+    justify-content: center;
+  position: absolute;
+  bottom: 40; /*** Makes it go to bottom ****/
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+  
+}
+
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+    font-size: 30px !important;
+}
+
+/******
+HOME PAGE: 
+**************************/
+
+
+
+.container_music {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+    
+}
+
+.card {
+    margin: 10px; /**** Adds space in between ****/
+}
+
+ {
+    color: black
+}
+
+.booking {
+    text-align: center;
+}
+/******
+MUSIC PAGE: 
+**************************/
+
+.musicVid_container, .bottom_container  {
+  display: flex;
+    justify-content: space-between;
+    margin: 20px
+
+    
+    
+}
+
+.bottom_container {
+    padding-left: 80px
+}
+
+
+
+/******
+ABOUT PAGE: 
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../img/lesPaul.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+******/
+.jumbotron {
+
+    background-image: url('/img/lesPaul.jpg');
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+
+.abt_container {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.abt_flexitem-1 {
+    padding-right: 10px;
+}
+
+
+.shoutouts {
+    text-align: center;
+}
+
